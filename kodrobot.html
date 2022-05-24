@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	
+	<title>Portfolio website</title>
+	
+	<link href="style.css" rel="stylesheet"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<script src="timer.js"></script>
+	
+</head>
+	
+<body onload="odliczanie();">
+	<header>
+		<h1 class="logo">
+		Mateusz Borth
+		</h1>	
+		<nav>
+			<ul class="navbar">
+				<li><a href="cv.html">Curriculum vitae</a></li>
+				<li><a href="#">Kwalifikacje</a>
+					<ul>
+						<li><a href="plc.html">Sterowniki PLC</li>
+						<li><a href="roboty.html">Roboty przemysłowe</li>
+					</ul>
+				</li>
+				<li><a href="#">Przykładowy kod</a>
+					<ul>
+						<li><a href="kodplc.html">Kod PLC</a></li>
+						<li><a href="kodrobot.html">Kod robota</a></li>
+					</ul>
+				</li>
+				<li><a href="index.html">O autorze</a></li>
+				<li id="zegar">12:00:00</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<article>
+			<section>
+				<div class="content_header">
+					<header>
+						<h1>
+							Przykładowy kod robota ABB
+						</h1>
+					</header>
+					
+					<div class="content_other">
+						<figure>
+							<img src="pictures/Robot_1.jpg" alt="Robot"/>
+						</figure>
+					</div>
+					<div class="content_other">
+						<figure>
+							<img src="pictures/Robot_2.jpg" alt="Robot"/>
+						</figure>
+					</div>
+				</div>			
+			</section>
+			
+			<footer>
+				<div class="footer_1">
+					<h2>
+						2022 &copy; Mateusz Borth - Portfolio<br/>Zapraszam do współpracy
+					</h2>
+				</div>
+			</footer>
+		</article>
+	</main>
+</body>
+
+</html>
